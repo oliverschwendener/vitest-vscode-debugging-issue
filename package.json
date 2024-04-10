@@ -1,0 +1,17 @@
+{
+    "name": "vitest-vscode-debugging-issue",
+    "description": "Repo to demonstrate vitest vscode debugging issue",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "test": "vitest run"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.4",
+        "@vitest/coverage-v8": "^1.4.0",
+        "typescript": "^5.4.3",
+        "vite": "^5.2.8",
+        "vitest": "^1.4.0"
+    }
+}
